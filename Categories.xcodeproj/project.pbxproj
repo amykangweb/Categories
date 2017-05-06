@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F77E06F1EBD9D4500E9B2F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77E06E1EBD9D4500E9B2F5 /* main.m */; };
+		7F77E0771EBD9E4900E9B2F5 /* NSArray+Movies.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77E0761EBD9E4900E9B2F5 /* NSArray+Movies.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7F77E06B1EBD9D4500E9B2F5 /* Categories */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Categories; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F77E06E1EBD9D4500E9B2F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F77E0751EBD9E4900E9B2F5 /* NSArray+Movies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Movies.h"; sourceTree = "<group>"; };
+		7F77E0761EBD9E4900E9B2F5 /* NSArray+Movies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Movies.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		7F77E0621EBD9D4500E9B2F5 = {
 			isa = PBXGroup;
 			children = (
+				7F77E0751EBD9E4900E9B2F5 /* NSArray+Movies.h */,
+				7F77E0761EBD9E4900E9B2F5 /* NSArray+Movies.m */,
 				7F77E06D1EBD9D4500E9B2F5 /* Categories */,
 				7F77E06C1EBD9D4500E9B2F5 /* Products */,
 			);
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F77E06F1EBD9D4500E9B2F5 /* main.m in Sources */,
+				7F77E0771EBD9E4900E9B2F5 /* NSArray+Movies.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
